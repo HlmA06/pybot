@@ -1,7 +1,2 @@
-sqlite3
-json
-os
-random
-datetime
-requests
-colorama
+colorama==0.4.4
+requests==2.26.0
