@@ -46,7 +46,7 @@ def kelime_ogren(kelime):
     if result:
         return result[1]
     else:
-        yeni_anlam = input(f"{kelime} Lütfen öğretin: ")
+        yeni_anlam = input(f"{kelime} Bu kelimeyi yazdığınızda ne cevap vereyim?: ")
         cursor.execute('INSERT INTO kelimeler VALUES (?, ?)', (kelime.lower(), yeni_anlam))
         connection.commit()
         return f"{kelime} Anlam öğrenildi."
