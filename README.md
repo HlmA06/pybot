@@ -28,7 +28,7 @@ Bu, kullanıcının girdiği metinlere tepki verebilen, öğrenme yeteneğine sa
 
   ```plaintext
   Kullanıcı: Nasılsın?
-  Bot: Nasılsın dediğinizde ne cevap vereyim?
+  Bot: Nasılsın dediğinizde ne cevap vermemi istersiniz?
   Kullanıcı: İyiyim.
   Kullanıcı: Nasılsın?
   Bot: İyiyim.
